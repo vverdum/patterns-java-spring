@@ -17,8 +17,7 @@ import org.springframework.context.annotation.Configuration;
  * @author vverdum
  */
 
-@Configuration
-//@EnableSwagger2
+
 @EnableFeignClients
 @SpringBootApplication
 public class PatternsJavaSpringApplication {
